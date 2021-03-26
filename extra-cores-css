@@ -1,0 +1,19 @@
+Cores e como elas funcionam no CSS e navegador.
+Alfabeto normal, para nos humanos é ABCDEF...Z, mas para a computação é um pouco diferente.
+Por exemplo temos os alfabetos:
+
+Binários = 01
+numérico = 0123456789
+hexadecimal = 0123456789ABCDEF
+RGB = Red Green Blue
+
+#_ _  _ _    _ _, exemplo #FF0000, #00FF00, #0000FF
+ red  green  blue
+Em hexadecimal o alfabeto ele vai do 0 até F, tem tem 16 níveis de representação de cada cor
+0 = ausência de Cores
+F = Máximo de Cores
+
+Em RGB o alfabeto ele vai do 0 até 255, tem 256 níveis de representação de cada cor.
+0 = ausência de Cores
+255 = Máximo de Cores
+RGB(red, green, blue), exemplo: RGB(255, 0, 0), RGB(0,255, 0) e RGB(0, 0, 255)
