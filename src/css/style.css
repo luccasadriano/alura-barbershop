@@ -88,7 +88,7 @@ nav a:hover {
 
 footer {
     text-align: center;
-    background: url("./assets/img/bg.jpg");
+    background: url("../assets/img/bg.jpg");
     padding: 40px 0;
 }
 
@@ -96,4 +96,67 @@ footer {
     color: #FFFFFF;
     font-size: 13px;
     /*unicode-table.com*/
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label,
+form legend {
+    display: block;
+    font-size: 20px;
+    /* padding: 10px; */
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 10px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.buttom {
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.buttom:hover {
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 20px 40px;
+    text-align: center;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+th,
+td {
+    border: 1px solid #000000;
+    padding: 8px 15px;
 }
